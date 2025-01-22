@@ -108,3 +108,9 @@ Les contributions à ce projet sont les bienvenues ! Si vous avez des suggestion
 3. Commitez vos modifications (`git commit -am 'Add your feature'`).
 4. Poussez la branche (`git push origin feature/your-feature`).
 5. Ouvrez une **pull request**.
+
+🌐 Contact
+
+Pour toute question ou demande de partenariat, n’hésitez pas à me contacter :
+
+Email : anzantchede-parfait.migniha@dauphine.eu , kidam.migniha@gmail.com , rodrigue.pro2020@gmail.com GitHub : https://github.com/Rodmigniha/EasyLearning-chatbot.git
