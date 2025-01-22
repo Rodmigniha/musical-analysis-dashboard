@@ -9,11 +9,11 @@ Les utilisateurs peuvent explorer différents aspects des morceaux de musique, a
 ### Fonctionnalités
 
 - **Page d'accueil interactive** : Une introduction claire à l'application avec un bouton pour accéder au dashboard.
-![Dashboard principal](data/creenshot_dashboard.png)
+![Dashboard principal](data\creenshot_dashboard.png)
 
 - **Dashboard interactif** : Visualisations des genres musicaux, de leur popularité et des caractéristiques musicales (énergie, tempo, etc.).
-![Dashboard barchart](data/creenshot_barchart.png)
-![Dashboard histogram](data/creenshot_hist.png)
+![Dashboard barchart](https://github.com/Rodmigniha/musical-analysis-dashboard/blob/main/data/creenshot_barchart.PNG)
+![Dashboard histogram](data/creenshot_hist.PNG)
 ![Dashboard scartter](data/creenshot_scartter.png)
 - **Comparaison des genres** : Comparaison des ventes moyennes par genre avec des graphiques combinés.
 ![Dashboard barplot](data/creenshot_barplot.png)
@@ -79,7 +79,7 @@ musical-analysis-dashboard/
 │   ├── visualizations.py
 │   ├── main.py
 ├── data/
-│   └── README.md
+│   
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
@@ -91,18 +91,13 @@ musical-analysis-dashboard/
 - **app/visualizations.py** : Gère la création des visualisations interactives.
 - **data/README.md** : Contient des informations sur les données utilisées dans le projet.
 
-## Déploiement sur Hugging Face
-
-1. **Créez un compte Hugging Face** : Si vous n'avez pas encore de compte, vous pouvez en créer un sur [Hugging Face](https://huggingface.co/).
-2. **Créez un espace Hugging Face** : Dans votre compte, allez dans la section "Spaces" et créez un nouvel espace.
-3. **Déployez votre application** : Suivez les instructions sur la plateforme pour déployer votre application en utilisant Streamlit.
 
 ## Technologies utilisées
 
 - **Streamlit** : Pour l'interface web interactive.
 - **Pandas** : Pour le traitement des données.
 - **Matplotlib** / **Seaborn** / **Plotly** : Pour les visualisations.
-- **Hugging Face** : Pour l'hébergement et le déploiement de l'application.
+- **streamlit** : Pour l'hébergement et le déploiement de l'application.
 
 ## Contribuer
 
