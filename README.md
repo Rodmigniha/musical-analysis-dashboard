@@ -15,7 +15,7 @@ Les utilisateurs peuvent explorer différents aspects des morceaux de musique, a
 ![Dashboard barchart](data/creenshot_barchart.PNG)
 ![Dashboard histogram](data/creenshot_hist.PNG)
 ![Dashboard scartter](data/creenshot_scartter.PNG)
-- **Comparaison des genres** : Comparaison des ventes moyennes par genre avec des graphiques combinés.
+- **Comparaison des genres** : Comparaison des chiffres moyens par genre avec des graphiques combinés.
 ![Dashboard barplot](data/creenshot_barplot.PNG)
 - **Analyse avancée des données musicales** : Exploration des caractéristiques comme la dansabilité, l'énergie, et plus encore.
 ![Dashboard boxplot](data/creenshot_boxplot.PNG)
@@ -37,7 +37,7 @@ Les utilisateurs peuvent explorer différents aspects des morceaux de musique, a
    Clonez ce dépôt sur votre machine locale :
 
    ```bash
-   git clone https://github.com/RodMigniha/musical-analysis-dashboard.git
+   git clone https://github.com/Rodmigniha/musical-analysis-dashboard.git
    cd musical-analysis-dashboard
    ```
 
@@ -108,3 +108,9 @@ Les contributions à ce projet sont les bienvenues ! Si vous avez des suggestion
 3. Commitez vos modifications (`git commit -am 'Add your feature'`).
 4. Poussez la branche (`git push origin feature/your-feature`).
 5. Ouvrez une **pull request**.
+
+🌐 Contact
+
+Pour toute question ou demande de partenariat, n’hésitez pas à me contacter :
+
+Email : anzantchede-parfait.migniha@dauphine.eu , kidam.migniha@gmail.com , rodrigue.pro2020@gmail.com GitHub : https://github.com/Rodmigniha/EasyLearning-chatbot.git
