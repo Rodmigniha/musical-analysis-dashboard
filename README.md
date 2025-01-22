@@ -15,7 +15,7 @@ Les utilisateurs peuvent explorer différents aspects des morceaux de musique, a
 ![Dashboard barchart](data/creenshot_barchart.PNG)
 ![Dashboard histogram](data/creenshot_hist.PNG)
 ![Dashboard scartter](data/creenshot_scartter.PNG)
-- **Comparaison des genres** : Comparaison des ventes moyennes par genre avec des graphiques combinés.
+- **Comparaison des genres** : Comparaison des chiffre moyens par genre avec des graphiques combinés.
 ![Dashboard barplot](data/creenshot_barplot.PNG)
 - **Analyse avancée des données musicales** : Exploration des caractéristiques comme la dansabilité, l'énergie, et plus encore.
 ![Dashboard boxplot](data/creenshot_boxplot.PNG)
