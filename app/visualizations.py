@@ -16,11 +16,12 @@ def plot_grouped_scatter_plots(data, variable_1, variable_2):
 # Fonction de visualisation : Bar Plot
 def plot_grouped_barplots(data, variable):
     
-    counts = data.value_counts()
+    counts = data[variable].value_counts().sort_values(ascending=False)
     fig, ax = plt.subplots(figsize=(10, 6))
     sns.barplot(x=counts.index, y=counts.values, ax=ax, palette="Blues")
-    ax.set_xlabel(variable)
-    ax.set_ylabel("Fréquence")
+    ax.set_xlabel(variable, fontsize=14)
+    ax.set_ylabel("Fréquence", fontsize=14)
+    ax.tick_params(axis='x', rotation=45)
     st.pyplot(fig)
 
 # Fonction de visualisation : Box Plot
@@ -31,10 +32,14 @@ def plot_grouped_boxplots(data, variable):
     
     fig, ax = plt.subplots(figsize=(10, 6))
     sns.boxplot(data=data,  y=variable, ax=ax, palette="Blues")
-    ax.set_title(f"Les quantiles sont : (Q1): {quantiles[0.25]}, (Q2): {quantiles[0.5]} et (Q3): {quantiles[0.75]}")
     ax.set_xlabel('Filtered data')
     ax.set_ylabel(variable)
     st.pyplot(fig)
+    
+    st.subheader("Interprétation :")
+    st.write(f"Les quantiles sont : (Q1): {quantiles[0.25]},\
+        (Q2): {quantiles[0.5]} et (Q3): {quantiles[0.75]}  sur ces \
+        morceaux sélectionnés", fontsize=16)
 
 # Fonction de visualisation : Histogram
 def plot_grouped_histograms(data, variable):
@@ -106,7 +111,7 @@ def plot_moyen(data, variable_1, variable_2):
     sns.lineplot(data=dt, x=variable_1, y=variable_2, color='darkblue', marker='o', ax=ax)
     
     # Personnalisation du graphique
-    ax.set_title(f"{max_value} a en moyenne {variable_2} le plus élevé", fontsize=16)
+    ax.set_title(f" {variable_2} moyen(ne) par {variable_1}", fontsize=16)
     ax.set_xlabel(variable_1, fontsize=14)
     ax.set_ylabel(f"moyenne {variable_2}", fontsize=14)
     ax.tick_params(axis='x', rotation=45)
@@ -114,3 +119,6 @@ def plot_moyen(data, variable_1, variable_2):
     
     # Affichage dans Streamlit
     st.pyplot(fig)
+    st.subheader("Interprétation :")
+    st.write(f"{max_value} a en moyenne {variable_2} le plus élevé sur ces \
+        morceaux sélectionnés", fontsize=16)

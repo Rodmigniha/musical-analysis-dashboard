@@ -9,9 +9,18 @@ Les utilisateurs peuvent explorer différents aspects des morceaux de musique, a
 ### Fonctionnalités
 
 - **Page d'accueil interactive** : Une introduction claire à l'application avec un bouton pour accéder au dashboard.
+![Dashboard principal](data/creenshot_dashboard.png)
+
 - **Dashboard interactif** : Visualisations des genres musicaux, de leur popularité et des caractéristiques musicales (énergie, tempo, etc.).
+![Dashboard barchart](data/creenshot_barchart.png)
+![Dashboard histogram](data/creenshot_hist.png)
+![Dashboard scartter](data/creenshot_scartter.png)
 - **Comparaison des genres** : Comparaison des ventes moyennes par genre avec des graphiques combinés.
+![Dashboard barplot](data/creenshot_barplot.png)
 - **Analyse avancée des données musicales** : Exploration des caractéristiques comme la dansabilité, l'énergie, et plus encore.
+![Dashboard boxplot](data/creenshot_boxplot.png)
+![Dashboard clustering](data/creenshot_clustering.png)
+![Dashboard heatmap](data/creenshot_heatmap.png)
 - **Interprétation des résultats** : Chaque graphique est accompagné d'une interprétation pour aider à tirer des conclusions.
 
 ## Installation

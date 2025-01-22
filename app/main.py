@@ -22,7 +22,13 @@ from data_processing import preprocess_data
 
 # Titre de l'application
 st.title("Musical Analysis Dashboard")
-
+st.write(
+        """
+        Cette application interactive aide les entreprises de production musicale à analyser 
+        les genres musicaux pour maximiser les ventes. Explorez les tendances, identifiez les genres 
+        populaires et bien plus encore !
+        """
+    )
 # Sélection des options dans la barre latérale
 st.sidebar.subheader("Paramètres de visualisation")
 chart_type = st.sidebar.selectbox(
