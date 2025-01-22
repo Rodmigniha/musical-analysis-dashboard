@@ -37,7 +37,7 @@ Les utilisateurs peuvent explorer différents aspects des morceaux de musique, a
    Clonez ce dépôt sur votre machine locale :
 
    ```bash
-   git clone https://github.com/RodMigniha/musical-analysis-dashboard.git
+   git clone https://github.com/Rodmigniha/musical-analysis-dashboard.git
    cd musical-analysis-dashboard
    ```
 
