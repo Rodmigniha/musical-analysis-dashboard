@@ -7,7 +7,7 @@ import pandas as pd
 def plot_grouped_scatter_plots(data, variable_1, variable_2):
     
     fig, ax = plt.subplots(figsize=(10, 6))
-    sns.scatterplot(data=data, x=variable_1, y=variable_2, ax=ax, palette='Blues')
+    sns.scatterplot(data=data, x=variable_1, y=variable_2, ax=ax)
     ax.set_title(f"Nuage de points entre {variable_1} et {variable_2} ")
     ax.set_xlabel(variable_1)
     ax.set_ylabel(variable_2)
@@ -121,4 +121,4 @@ def plot_moyen(data, variable_1, variable_2):
     st.pyplot(fig)
     st.subheader("Interprétation :")
     st.write(f"{max_value} a en moyenne {variable_2} le plus élevé sur ces \
-        morceaux sélectionnés", fontsize=16)
+        morceaux sélectionnés")
