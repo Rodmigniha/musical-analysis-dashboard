@@ -15,11 +15,7 @@ Les utilisateurs peuvent explorer différents aspects des morceaux de musique, a
 ![Dashboard barchart](data/creenshot_barchart.PNG)
 ![Dashboard histogram](data/creenshot_hist.PNG)
 ![Dashboard scartter](data/creenshot_scartter.PNG)
-<<<<<<< HEAD
 - **Comparaison des genres** : Comparaison des chiffres moyens par genre avec des graphiques combinés.
-=======
-- **Comparaison des genres** : Comparaison des chiffre moyens par genre avec des graphiques combinés.
->>>>>>> 2235f6728abcc347eba718f0bab9f6d8c4fef725
 ![Dashboard barplot](data/creenshot_barplot.PNG)
 - **Analyse avancée des données musicales** : Exploration des caractéristiques comme la dansabilité, l'énergie, et plus encore.
 ![Dashboard boxplot](data/creenshot_boxplot.PNG)
@@ -117,8 +113,5 @@ Les contributions à ce projet sont les bienvenues ! Si vous avez des suggestion
 
 Pour toute question ou demande de partenariat, n’hésitez pas à me contacter :
 
-<<<<<<< HEAD
-Email : anzantchede-parfait.migniha@dauphine.eu , kidam.migniha@gmail.com , rodrigue.pro2020@gmail.com GitHub : https://github.com/Rodmigniha/EasyLearning-chatbot.git
-=======
-Email : anzantchede-parfait.migniha@dauphine.eu , kidam.migniha@gmail.com , rodrigue.pro2020@gmail.com GitHub : https://github.com/Rodmigniha/EasyLearning-chatbot.git
->>>>>>> 2235f6728abcc347eba718f0bab9f6d8c4fef725
+Email : anzantchede-parfait.migniha@dauphine.eu , kidam.migniha@gmail.com , rodrigue.pro2020@gmail.com 
+GitHub : https://github.com/Rodmigniha/EasyLearning-chatbot.git
